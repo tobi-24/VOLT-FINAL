@@ -1,0 +1,22 @@
+// BASICS
+@import './basics/vars';
+@import './basics/mixins';
+@import './basics/mediaqueries';
+
+// COMPONENTS
+@import './components/buttons.scss';
+
+// LAYOUT
+@import './layout/body';
+@import './layout/footer';
+@import './layout/header';
+
+
+// PAGES
+@import './pages/about-us.scss';
+@import './pages/cart.scss';
+@import './pages/catalogue.scss';
+@import './pages/contact.scss';
+@import './pages/index.scss';
+@import './pages/log-in.scss';
+@import './pages/products.scss';
