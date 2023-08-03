@@ -1,7 +1,7 @@
 // BASICS
-@import './basics/vars';
-@import './basics/mixins';
-@import './basics/mediaqueries';
+@import './basics/_vars';
+@import './basics/_mixins';
+@import './basics/_mediaqueries';
 
 // COMPONENTS
 @import './components/buttons.scss';
