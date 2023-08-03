@@ -180,6 +180,13 @@
 
 body {
   background-color: #38423B;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body main {
+  flex: 1;
 }
 
 .subtitles {
@@ -191,6 +198,10 @@ body {
 }
 
 footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
   background-color: #20FC8F;
 }
 footer .footer-text {
@@ -208,6 +219,10 @@ footer .footer-icons a {
   font-size: 40px;
   color: #38423B;
   margin: 8px;
+}
+footer .footer-icons img {
+  width: 30px;
+  height: 30px;
 }
 footer .help-footer {
   display: flex;
@@ -344,7 +359,9 @@ main #eachProduct .col {
   margin-top: 30px;
 }
 main #eachProduct .col img {
-  width: 600px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
   margin-top: 50px;
   border: 15px solid;
   color: #000;
@@ -382,15 +399,19 @@ main #contact .container-contact #contactIcon a {
   display: flex;
   align-items: center;
 }
-main #contact .container-contact #contactIcon .fa-instagram, main #contact .container-contact #contactIcon .fa-facebook, main #contact .container-contact #contactIcon .fa-whatsapp, main #contact .container-contact #contactIcon .fa-envelope, main #contact .container-contact #contactIcon .fa-phone {
-  font-size: 48px;
-  color: #000;
+main #contact .container-contact #contactIcon a img {
+  width: 30px;
+  height: 30px;
 }
 main #contact .container-contact #contactIcon h4 {
   color: #000;
   padding-left: 6px;
   margin-bottom: 0px;
   font-size: 30px;
+}
+main #contact .map-contact iframe {
+  width: 100%;
+  height: 100%;
 }
 
 main .hero {
@@ -428,6 +449,8 @@ main .card img {
   width: 100%;
   height: auto;
   transition: transform 0.5s ease-in-out;
+  object-fit: cover;
+  aspect-ratio: 1/1;
 }
 main .card img:hover {
   transform: scale(1.2);

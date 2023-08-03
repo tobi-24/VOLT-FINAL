@@ -17,10 +17,9 @@ main{
                     text-decoration: none;
                     display: flex;
                     align-items: center;
-                }
-                .fa-instagram, .fa-facebook, .fa-whatsapp, .fa-envelope, .fa-phone{
-                    font-size: 48px;
-                    color: $fourth-color;
+                    img{
+                        @include iconos-social-media;
+                    }
                 }
                 h4{
                     color: $fourth-color;
@@ -30,5 +29,9 @@ main{
                 }
             }
         }
-    }   
+        .map-contact iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }  
 }
