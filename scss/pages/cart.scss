@@ -7,7 +7,7 @@ main{
             justify-content: center;
         }
         .cart-products{
-            background-color: $fourth-color;
+            background-color: $tertiary-color;
             
             img{
                 width: 200px;
@@ -15,7 +15,7 @@ main{
                 margin-bottom: 10px;
             }
             p{
-                color: $seventh-color;
+                color: $fifth-color;
                 font-size: 20px;
             }
             .col{
@@ -31,10 +31,10 @@ main{
             margin-right: 65px;
         }
         #seeProducts{
-        color: $seventh-color;
+        color: $fifth-color;
         text-decoration: none;
         padding-top: 10px;
         margin-left: 15px;
-    }
+        }
     }
 }

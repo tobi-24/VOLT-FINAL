@@ -7,14 +7,14 @@ header{
             flex-direction: column;
             align-content: space-around;
             flex-wrap: wrap;
-            color: $seconadary-color;
+            color: $secondary-color;
             .navbar-nav{
                 background-color: $primary-color !important; 
                 padding: 8px;
                 font-size: 20px;
-                color: $seconadary-color;
+                color: $secondary-color;
                 .nav-item{
-                    color: $seconadary-color;
+                    color: $secondary-color;
                     font-size: 24px;
                     list-style-type: none;
                     text-decoration: none;

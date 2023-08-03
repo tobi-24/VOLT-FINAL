@@ -8,7 +8,7 @@ main{
         align-content: space-around;
         .rectangle-log-in{
             background-color: $primary-color;
-            border-color: $seventh-color;
+            border-color: $fifth-color;
             border-style: solid;
             border-radius: 8px;
             border-width: 8px;
@@ -19,7 +19,7 @@ main{
             align-items: center;
             justify-items: center;
             #logInTittle{
-                color: $sixth-color;
+                color: $fourth-color;
                 padding-top: 22px;
                 font-size: 38px;
                 margin-bottom: 0px;
@@ -30,7 +30,7 @@ main{
             align-items: center;
                 .form-label{
                 font-size: 24px;
-                color: $sixth-color;
+                color: $fourth-color;
                 margin-top: 10px;
                 margin-bottom: 0px;
                 }
@@ -42,13 +42,13 @@ main{
                     font-size: 20px;
                     padding: 20px;
                     a{
-                        color: $sixth-color;
+                        color: $fourth-color;
                         text-decoration: none;
                         display: flex;
                         margin: 6px;
                     }
                     .sign-up-link{
-                    color: $sixth-color;
+                    color: $fourth-color;
                     }
                 }
             }
