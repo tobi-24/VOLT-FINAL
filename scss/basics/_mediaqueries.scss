@@ -1,0 +1,162 @@
+@media (max-width:576px){
+    //NAVBAR
+    .nav-item{
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+        .nav-link {
+            margin: 4px;
+        }
+    }
+    //INDEX
+    .hero{
+        background-position: center;
+    }
+    .featured-products{
+        h3{
+            margin-top: 16px;
+            font-size: 26px;
+        }
+        .col{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            .card{
+                padding: 10px;
+                margin-bottom: 30px; 
+            }
+        }
+    }
+    //FOOTER
+    .footer-icons{
+        a{
+            font-size: 30px;
+        }
+    }
+    .footer-text{
+        margin-top: 16px;
+        font-size: 26px;
+    }
+    #help li a{
+        font-size: 16px;
+    }
+
+    
+    //PRODUCTS
+    .products-stock h2{
+        margin: 40px 0px 20px 0px;
+        font-size: 36px;
+    }
+    .products-stock .col{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    //ABOUT US
+    .about-us-offers{
+        background-position: center;
+    }
+        #aboutUsTittle{
+        color: $seconadary-color;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+        margin: 0px;
+    }
+    .rectangle{
+        width: 290px;
+        height: 670px;
+        .about-us-text{
+            font-size: 18px;
+            margin: 0px 20px;
+        }
+    }
+
+    //LOG IN
+    section{
+        .rectangle-log-in{
+            margin-top: 20px;
+            width: 340px;
+            height: 460px;
+            #logInTittle{
+                padding-top: 12px;
+            }
+            .log-in-account{
+                .form-label{
+                font-size: 22px;
+                }
+                .form-control{
+                height: 30px;
+                }
+                .account{
+                    font-size: 15px;
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+    //CONTACT
+    #contact{
+        height: 95vh;
+        h2{
+            font-size: 36px;
+            padding: 0px;
+        }
+        .container-contact{
+            width: 200px;
+            height: 200px;
+            #contactIcon{
+                a{
+                    font-size: 28px;
+                }
+                .fa-instagram, .fa-facebook, .fa-whatsapp, .fa-envelope, .fa-phone{
+                    font-size: 28px;
+                }
+                h4{
+                    font-size: 20px;
+                }
+            }
+        }
+        .map-contact{
+                width: 200px;
+                display: flex;
+        }   
+    }
+
+    //CART
+    .subtitles{
+        font-size: 36px;
+        margin: 0px;
+    }
+    #cart{
+        height: 69vh;
+        img{
+            width: 150px;
+            height: 150px;
+        }
+        p{
+            font-size: 16px;
+        }
+        .container-buy{
+            justify-content: flex-start;
+        }
+    }
+
+    //CATALOGUE
+    #eachProduct{
+        .col{
+            justify-content: center;
+            img{
+            width: 300px;
+            border-width: 8px;
+            }
+            .card-title{
+                margin-top: 20px;
+            }
+            .card-description{
+                font-size: 16px;
+            }
+        }  
+    }
+}
