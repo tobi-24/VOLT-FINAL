@@ -6,8 +6,9 @@
     padding: 0px;
   }
   .nav-item .nav-link {
-    margin: 4px !important;
+    margin: 0px !important;
     padding: 0px;
+    font-size: 20px;
   }
   .hero {
     background-position: center;
@@ -49,19 +50,19 @@
   .about-us-offers {
     background-position: center;
   }
-  #aboutUsTittle {
+  .about-us-offers .rectangle {
+    width: 290px !important;
+    height: 650px !important;
+  }
+  .about-us-offers .rectangle #aboutUsTittle {
     color: #38423B;
     text-align: center;
     font-size: 30px;
     padding: 10px;
     margin: 0px;
   }
-  .rectangle {
-    width: 290px !important;
-    height: 650px !important;
-  }
-  .rectangle .about-us-text {
-    font-size: 16px !important;
+  .about-us-offers .rectangle .about-us-text {
+    font-size: 18px !important;
     margin: 0px 20px !important;
   }
   section .rectangle-log-in {
@@ -105,12 +106,12 @@
   #contact .map-contact iframe {
     height: 240px !important;
   }
-  .subtitles {
-    font-size: 36px;
-    margin: 0px;
-  }
   #cart {
     height: 69vh;
+  }
+  #cart h2 {
+    font-size: 30px;
+    margin: 0px !important;
   }
   #cart img {
     width: 150px;
@@ -342,7 +343,7 @@ main #cart .cart-products .col {
 }
 main #cart .container-buy {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end !important;
   align-items: center;
   margin-right: 65px;
 }
