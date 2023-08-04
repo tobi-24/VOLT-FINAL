@@ -18,8 +18,8 @@ main{
         }
         .rectangle{
             background-color: rgba(32, 252, 143, 0.8);
-            width: 1600px;
-            height: 400px;
+            width: auto;
+            height: auto;
             .about-us-text{
                 color: $secondary-color;
                 font-size: 30px;

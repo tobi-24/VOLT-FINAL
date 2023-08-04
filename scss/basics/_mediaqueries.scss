@@ -5,12 +5,16 @@
         margin: 0px;
         padding: 0px;
         .nav-link {
-            margin: 4px;
+            margin: 4px !important;
+            padding: 0px;
         }
     }
     //INDEX
     .hero{
         background-position: center;
+        h2{
+            font-size: 5.25em !important;
+        }
     }
     .featured-products{
         h3{
@@ -22,7 +26,6 @@
             display: flex;
             justify-content: center;
             .card{
-                padding: 10px;
                 margin-bottom: 30px; 
             }
         }
@@ -34,8 +37,8 @@
         }
     }
     .footer-text{
-        margin-top: 16px;
-        font-size: 26px;
+        margin-top: 16px !important;
+        font-size: 26px !important;
     }
     #help li a{
         font-size: 16px;
@@ -65,11 +68,11 @@
         margin: 0px;
     }
     .rectangle{
-        width: 290px;
-        height: 670px;
+        width: 290px !important;
+        height: 650px !important;
         .about-us-text{
-            font-size: 18px;
-            margin: 0px 20px;
+            font-size: 16px !important;
+            margin: 0px 20px !important;
         }
     }
 
@@ -98,32 +101,32 @@
     }
     //CONTACT
     #contact{
-        height: 95vh;
         h2{
             font-size: 36px;
             padding: 0px;
         }
+        .contact-row{
+            display: flex;
+            flex-direction: column !important;
+            align-items: center;
+        }
         .container-contact{
-            width: 200px;
-            height: 200px;
+            width: 500px;
+            margin-bottom: 24px;
             #contactIcon{
                 a{
-                    font-size: 28px;
-                }
-                .fa-instagram, .fa-facebook, .fa-whatsapp, .fa-envelope, .fa-phone{
-                    font-size: 28px;
-                }
-                h4{
-                    font-size: 20px;
+                    font-size: 18px !important;
                 }
             }
         }
         .map-contact{
-                width: 200px;
-                display: flex;
-        }   
+            width: 85%;
+            display: flex;
+            iframe{
+                height: 240px !important;
+            }
+        }
     }
-
     //CART
     .subtitles{
         font-size: 36px;
@@ -145,18 +148,17 @@
 
     //CATALOGUE
     #eachProduct{
-        .col{
-            justify-content: center;
-            img{
-            width: 300px;
-            border-width: 8px;
+        height: 90vh !important;
+            .col{
+                justify-content: center;
+                img{
+                width: 305px !important;
+                height: 305px !important;
+                border-width: 8px !important;
+                }
+                .card-description{
+                    font-size: 16px !important;
+                }
             }
-            .card-title{
-                margin-top: 20px;
-            }
-            .card-description{
-                font-size: 16px;
-            }
-        }  
-    }
+        }
 }

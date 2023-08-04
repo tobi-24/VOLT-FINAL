@@ -6,10 +6,14 @@
     padding: 0px;
   }
   .nav-item .nav-link {
-    margin: 4px;
+    margin: 4px !important;
+    padding: 0px;
   }
   .hero {
     background-position: center;
+  }
+  .hero h2 {
+    font-size: 5.25em !important;
   }
   .featured-products h3 {
     margin-top: 16px;
@@ -21,15 +25,14 @@
     justify-content: center;
   }
   .featured-products .col .card {
-    padding: 10px;
     margin-bottom: 30px;
   }
   .footer-icons a {
     font-size: 30px;
   }
   .footer-text {
-    margin-top: 16px;
-    font-size: 26px;
+    margin-top: 16px !important;
+    font-size: 26px !important;
   }
   #help li a {
     font-size: 16px;
@@ -54,12 +57,12 @@
     margin: 0px;
   }
   .rectangle {
-    width: 290px;
-    height: 670px;
+    width: 290px !important;
+    height: 650px !important;
   }
   .rectangle .about-us-text {
-    font-size: 18px;
-    margin: 0px 20px;
+    font-size: 16px !important;
+    margin: 0px 20px !important;
   }
   section .rectangle-log-in {
     margin-top: 20px;
@@ -79,29 +82,28 @@
     font-size: 15px;
     margin-right: 40px;
   }
-  #contact {
-    height: 95vh;
-  }
   #contact h2 {
     font-size: 36px;
     padding: 0px;
   }
+  #contact .contact-row {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
   #contact .container-contact {
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    margin-bottom: 24px;
   }
   #contact .container-contact #contactIcon a {
-    font-size: 28px;
-  }
-  #contact .container-contact #contactIcon .fa-instagram, #contact .container-contact #contactIcon .fa-facebook, #contact .container-contact #contactIcon .fa-whatsapp, #contact .container-contact #contactIcon .fa-envelope, #contact .container-contact #contactIcon .fa-phone {
-    font-size: 28px;
-  }
-  #contact .container-contact #contactIcon h4 {
-    font-size: 20px;
+    font-size: 18px !important;
   }
   #contact .map-contact {
-    width: 200px;
+    width: 85%;
     display: flex;
+  }
+  #contact .map-contact iframe {
+    height: 240px !important;
   }
   .subtitles {
     font-size: 36px;
@@ -120,18 +122,19 @@
   #cart .container-buy {
     justify-content: flex-start;
   }
+  #eachProduct {
+    height: 90vh !important;
+  }
   #eachProduct .col {
     justify-content: center;
   }
   #eachProduct .col img {
-    width: 300px;
-    border-width: 8px;
-  }
-  #eachProduct .col .card-title {
-    margin-top: 20px;
+    width: 305px !important;
+    height: 305px !important;
+    border-width: 8px !important;
   }
   #eachProduct .col .card-description {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 }
 .btn {
@@ -198,8 +201,8 @@ body main {
 }
 
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #38423B;
+  color: #38423B;
   text-align: center;
   padding: 1rem;
   background-color: #20FC8F;
@@ -299,8 +302,8 @@ main .about-us-offers #aboutUsTittle {
 }
 main .about-us-offers .rectangle {
   background-color: rgba(32, 252, 143, 0.8);
-  width: 1600px;
-  height: 400px;
+  width: auto;
+  height: auto;
 }
 main .about-us-offers .rectangle .about-us-text {
   color: #38423B;
@@ -381,7 +384,6 @@ main #contact {
   height: 70vh;
 }
 main #contact .container-contact {
-  margin: 20px;
   background-color: rgba(32, 252, 143, 0.7);
   height: 270px;
   display: flex;
@@ -429,7 +431,7 @@ main .hero #typographyColor {
 main .hero h2 {
   color: #20FC8F;
   padding: 20px;
-  font-size: 160px;
+  font-size: 10em;
   text-align: center;
   margin-top: 80px;
 }
